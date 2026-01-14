@@ -1,7 +1,7 @@
 package fundamentals;
 
 /**
- * This class is a basic exemple of program initialization in Java.
+ * This class is a basic example of program initialization in Java.
  * 
  * @author João Augusto Bonfante <joao.dev93@gmail.com>
  * @since 1.0
