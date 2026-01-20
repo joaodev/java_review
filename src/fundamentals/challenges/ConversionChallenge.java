@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.challenges;
 
 import java.util.Scanner;
 

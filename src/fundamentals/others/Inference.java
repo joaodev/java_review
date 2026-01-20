@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.others;
 
 public class Inference {
 	

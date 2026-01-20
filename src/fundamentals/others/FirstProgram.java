@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.others;
 
 /**
  * This class is a basic example of program initialization in Java.

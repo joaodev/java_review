@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.strings;
 
 public class StringType {
 

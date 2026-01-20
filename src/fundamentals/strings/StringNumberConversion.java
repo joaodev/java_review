@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.strings;
 
 import javax.swing.*;
 import java.math.BigDecimal;
