@@ -1,15 +1,16 @@
-# 📚 Java Review - Fundamentals and Control Flow
+# 📚 Java Review - Fundamentals, Control Flow, and OOP
 
-A comprehensive educational project with practical examples of Java fundamentals, control structures, and programming challenges.
+A comprehensive educational project with practical examples of Java fundamentals, control structures, OOP principles, and programming challenges.
 
 ## 📖 About the Project
 
 This repository contains a structured review of Java's fundamental concepts, focusing on:
 - **Fundamentals**: Primitive types, operators, type conversions, and string manipulation
 - **Control Structures**: Conditionals and loops with practical examples
+- **OOP Principles**: Encapsulation, inheritance, polymorphism, and composition
 - **Challenges**: Practical exercises to consolidate learning
 
-Perfect for reviewing basic concepts or as study material for Java beginners.
+Perfect for reviewing basic concepts or as study material for Java beginners and intermediates.
 
 ## 📁 Project Structure
 
@@ -29,12 +30,72 @@ java_review/
 │   │   ├── loops/              # Repetition structures (for, while, do-while)
 │   │   └── challenges/         # Control flow challenges
 │   │
-│   ├── classes/                # Object-Oriented Programming
+│   ├── classes/                # Basic Object-Oriented Programming
 │   │   ├── others/             # Values and references concepts
 │   │   ├── area/               # Class example with methods
 │   │   ├── product/            # Example with overloading and static attributes
 │   │   └── challenges/         # Class challenges
 │   │       └── eat/            # Subpackage: relationship between classes
+│   │
+│   ├── oop/                    # Advanced Object-Oriented Programming
+│   │   ├── encapsulation/      # Encapsulation principles
+│   │   │   ├── Person.java     # Person class with encapsulation
+│   │   │   ├── PersonTest.java # Tests for Person
+│   │   │   ├── houseone/       # Subpackage for house one
+│   │   │   │   ├── Person1.java
+│   │   │   │   └── Person2.java
+│   │   │   └── housetwo/       # Subpackage for house two
+│   │   │       ├── Person3.java
+│   │   │       └── Person4.java
+│   │   ├── inheritance/        # Inheritance concepts
+│   │   │   ├── Direction.java  # Direction enum
+│   │   │   ├── Hero.java       # Hero class
+│   │   │   ├── Monster.java    # Monster class
+│   │   │   ├── Player.java     # Player class
+│   │   │   ├── challenges/     # Inheritance challenges
+│   │   │   │   ├── Car.java
+│   │   │   │   ├── Confort.java
+│   │   │   │   ├── Ferrari.java
+│   │   │   │   ├── HondaFit.java
+│   │   │   │   └── SportsCar.java
+│   │   │   └── tests/          # Tests for inheritance
+│   │   │       ├── CarTest.java
+│   │   │       └── GameTest.java
+│   │   ├── polymorphism/       # Polymorphism examples
+│   │   │   ├── Bean.java       # Bean class
+│   │   │   ├── Dinner.java     # Dinner class
+│   │   │   ├── Food.java       # Food class
+│   │   │   ├── IceCream.java   # IceCream class
+│   │   │   ├── Person.java     # Person class
+│   │   │   ├── Rice.java       # Rice class
+│   │   │   └── challenges/     # Polymorphism challenges
+│   │   │       ├── AbstractTest.java
+│   │   │       ├── Animal.java
+│   │   │       ├── Dog.java
+│   │   │       └── Mammal.java
+│   │   └── composition/        # Composition relationships
+│   │       ├── challenges/     # Composition challenges
+│   │       │   ├── Customer.java
+│   │       │   ├── Item.java
+│   │       │   ├── Product.java
+│   │       │   ├── Purchase.java
+│   │       │   └── Software.java
+│   │       └── many/           # Many-to-many and one-to-many
+│   │           ├── to/
+│   │           │   ├── many/
+│   │           │   │   ├── Course.java
+│   │           │   │   ├── CourseTest.java
+│   │           │   │   └── Student.java
+│   │           │   └── one/
+│   │           │       ├── Car.java
+│   │           │       ├── CarTest.java
+│   │           │       └── Engine.java
+│   │           └── one/
+│   │               ├── to/
+│   │               │   ├── many/
+│   │               │   │   ├── Item.java
+│   │               │   │   ├── Purchase.java
+│   │               │   │   └── PurchaseTest.java
 │   │
 │   ├── arrays/                 # Array data structures
 │   │   ├── challenges/         # Array challenges
@@ -111,7 +172,7 @@ java_review/
 - `WhileChallange.java` - Challenge: while loop usage
 - `WeekDayChallenge.java` - Challenge: days of the week with switch
 
-### Classes (Object-Oriented Programming)
+### Classes (Basic Object-Oriented Programming)
 
 #### Others
 - `ValueVsReference.java` - Difference between values and references
@@ -133,6 +194,66 @@ java_review/
   - `Food.java` - Class representing food
   - `Person.java` - Class representing person
   - `Dinner.java` - Class relating person and food
+
+### OOP (Advanced Object-Oriented Programming)
+
+#### Encapsulation
+- `Person.java` - Person class demonstrating encapsulation
+- `PersonTest.java` - Tests for Person class
+- `houseone/` - Subpackage for house one examples
+  - `Person1.java` - Person1 class
+  - `Person2.java` - Person2 class
+- `housetwo/` - Subpackage for house two examples
+  - `Person3.java` - Person3 class
+  - `Person4.java` - Person4 class
+
+#### Inheritance
+- `Direction.java` - Direction enum
+- `Hero.java` - Hero class
+- `Monster.java` - Monster class
+- `Player.java` - Player class
+- `challenges/` - Inheritance challenges
+  - `Car.java` - Car class
+  - `Confort.java` - Confort class
+  - `Ferrari.java` - Ferrari class
+  - `HondaFit.java` - HondaFit class
+  - `SportsCar.java` - SportsCar class
+- `tests/` - Tests for inheritance
+  - `CarTest.java` - Tests for Car
+  - `GameTest.java` - Tests for game classes
+
+#### Polymorphism
+- `Bean.java` - Bean class
+- `Dinner.java` - Dinner class
+- `Food.java` - Food class
+- `IceCream.java` - IceCream class
+- `Person.java` - Person class
+- `Rice.java` - Rice class
+- `challenges/` - Polymorphism challenges
+  - `AbstractTest.java` - Abstract test
+  - `Animal.java` - Animal class
+  - `Dog.java` - Dog class
+  - `Mammal.java` - Mammal class
+
+#### Composition
+- `challenges/` - Composition challenges
+  - `Customer.java` - Customer class
+  - `Item.java` - Item class
+  - `Product.java` - Product class
+  - `Purchase.java` - Purchase class
+  - `Software.java` - Software class
+- `many/to/many/` - Many-to-many relationships
+  - `Course.java` - Course class
+  - `CourseTest.java` - Tests for Course
+  - `Student.java` - Student class
+- `many/to/one/` - Many-to-one relationships
+  - `Car.java` - Car class
+  - `CarTest.java` - Tests for Car
+  - `Engine.java` - Engine class
+- `one/to/many/` - One-to-many relationships
+  - `Item.java` - Item class
+  - `Purchase.java` - Purchase class
+  - `PurchaseTest.java` - Tests for Purchase
 
 ### Arrays (Sequential Data Structures)
 
@@ -177,6 +298,10 @@ cd java_review
 javac -d out src/fundamentals/others/*.java
 javac -d out src/fundamentals/operators/*.java
 javac -d out src/control/loops/*.java
+javac -d out src/oop/encapsulation/*.java
+javac -d out src/oop/inheritance/*.java
+javac -d out src/oop/polymorphism/*.java
+javac -d out src/oop/composition/**/*.java
 # ... etc for other modules
 ```
 
@@ -185,6 +310,10 @@ javac -d out src/control/loops/*.java
 java -cp out fundamentals.others.FirstProgram
 java -cp out fundamentals.operators.ArithmeticOperators
 java -cp out control.loops.For1Loop
+java -cp out oop.encapsulation.Person
+java -cp out oop.inheritance.Hero
+java -cp out oop.polymorphism.Food
+java -cp out oop.composition.challenges.Customer
 ```
 
 ### Or directly with the IDE
@@ -209,6 +338,10 @@ java -cp out control.conditionals.IfControl
 ```bash
 java -cp out fundamentals.challenges.ArithmeticChallenge
 java -cp out control.challenges.ForChallenge
+java -cp out oop.encapsulation.PersonTest
+java -cp out oop.inheritance.tests.CarTest
+java -cp out oop.polymorphism.challenges.AbstractTest
+java -cp out oop.composition.many.to.many.CourseTest
 ```
 
 ## 💡 Concepts Covered
@@ -228,7 +361,7 @@ java -cp out control.challenges.ForChallenge
 ✅ Break and continue  
 ✅ Complex control combinations
 
-### Object-Oriented Programming
+### Basic OOP
 ✅ Class definition and attributes  
 ✅ Methods and constructors  
 ✅ Method overloading  
@@ -236,6 +369,15 @@ java -cp out control.challenges.ForChallenge
 ✅ Null value  
 ✅ Static attributes  
 ✅ Relationship between classes
+
+### Advanced OOP
+✅ Encapsulation (access modifiers, getters/setters)  
+✅ Inheritance (extends, super, method overriding)  
+✅ Polymorphism (method overloading/overriding, abstract classes)  
+✅ Composition (has-a relationships, aggregation)  
+✅ One-to-many and many-to-many relationships  
+✅ Abstract classes and interfaces  
+✅ Enums and constants
 
 ### Arrays
 ✅ Array declaration and initialization  
@@ -267,9 +409,13 @@ java -cp out control.challenges.ForChallenge
 8. **Introduction to OOP**: Learn values and references concepts in `classes/others/`
 9. **Work with classes**: Create and study classes in `classes/area/` and `classes/product/`
 10. **OOP projects**: Implement practical challenges in `classes/challenges/`
-11. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
-12. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
-13. **Integrate everything**: Combine OOP + Arrays + Collections in complex projects
+11. **Advanced OOP**: Dive into encapsulation in `oop/encapsulation/`
+12. **Understand inheritance**: Explore `oop/inheritance/` and its challenges
+13. **Master polymorphism**: Study `oop/polymorphism/` examples
+14. **Learn composition**: Work with relationships in `oop/composition/`
+15. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
+16. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
+17. **Integrate everything**: Combine OOP + Arrays + Collections in complex projects
 
 ## 🤝 Contributions
 
@@ -297,5 +443,5 @@ For questions about the concepts:
 
 ---
 
-**Last update**: January 21, 2026  
+**Last update**: January 23, 2026  
 **Status**: ✅ Project under continuous review
