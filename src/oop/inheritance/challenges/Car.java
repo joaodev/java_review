@@ -2,23 +2,23 @@ package oop.inheritance.challenges;
 
 public class Car {
 
-    final int MAXIMUM_SPEED;
-    int currentSpeed;
-    int delta = 5;
+    public final int MAXIMUM_SPEED;
+    protected int currentSpeed;
+    private int delta = 5;
 
-    Car(int maximumSpeed) {
+    protected Car(int maximumSpeed) {
         this.MAXIMUM_SPEED = maximumSpeed;
     }
 
-    void accelerate() {
-        if (currentSpeed + delta > MAXIMUM_SPEED) {
+    public void accelerate() {
+        if (currentSpeed + getDelta() > MAXIMUM_SPEED) {
             currentSpeed = MAXIMUM_SPEED;
         } else {
-            currentSpeed += delta;
+            currentSpeed += getDelta();
         }
     }
 
-    void brake() {
+    public void brake() {
         if (currentSpeed >= 5) {
             currentSpeed -= 5;
         } else {
@@ -28,5 +28,13 @@ public class Car {
 
     public String toString() {
         return "Current speed is: " + this.currentSpeed + " mph.";
+    }
+
+    public int getDelta() {
+        return delta;
+    }
+
+    public void setDelta(int delta) {
+        this.delta = delta;
     }
 }

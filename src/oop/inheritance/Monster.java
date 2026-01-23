@@ -2,7 +2,7 @@ package oop.inheritance;
 
 public class Monster extends Player {
 
-    Monster() {
+    public Monster() {
         this(0, 0);
     }
 

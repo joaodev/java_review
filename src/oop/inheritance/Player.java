@@ -2,23 +2,23 @@ package oop.inheritance;
 
 public class Player {
 
-    int life = 100;
-    int x;
-    int y;
+    public int life = 100;
+    public int x;
+    public int y;
 
-    Player(int x, int y) {
+    protected Player(int x, int y) {
         this.x = x;
         this.y = y;
     }
 
-    boolean attack(Player player) {
-        int detalX = Math.abs(x - player.x);
+    public boolean attack(Player player) {
+        int deltalX = Math.abs(x - player.x);
         int deltaY = Math.abs(y - player.y);
 
-        if (detalX == 0 && deltaY == 1) {
+        if (deltalX == 0 && deltaY == 1) {
             player.life -= 10;
             return true;
-        } else if (detalX == 1 && deltaY == 0) {
+        } else if (deltalX == 1 && deltaY == 0) {
             player.life -= 10;
             return true;
         } else {
@@ -26,7 +26,7 @@ public class Player {
         }
     }
 
-    boolean walk(Direction direction) {
+    public void walk(Direction direction) {
 
         switch (direction) {
             case N0RTH:
@@ -42,7 +42,5 @@ public class Player {
                 x--;
                 break;
         }
-
-        return true;
     }
 }

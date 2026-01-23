@@ -1,6 +1,10 @@
-package oop.inheritance;
+package oop.inheritance.tests;
 
-public class Game {
+import oop.inheritance.Direction;
+import oop.inheritance.Hero;
+import oop.inheritance.Monster;
+
+public class GameTest {
 
     public static void main(String[] args) {
 
@@ -18,5 +22,11 @@ public class Game {
 
         System.out.println("Monster life: " + monster.life);
         System.out.println("Hero life " + hero.life);
+
+        monster.walk(Direction.N0RTH);
+        hero.walk(Direction.EAST);
+
+        System.out.println(monster.y);
+        System.out.println(hero.x);
     }
 }

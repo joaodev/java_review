@@ -1,18 +1,49 @@
 package oop.inheritance.challenges;
 
-public class Ferrari extends  Car {
+public class Ferrari extends Car implements SportsCar, Confort {
 
-    Ferrari() {
+    private boolean turnOnTurbo = false;
+    private boolean turnOnAirConditioning = false;
+
+    public Ferrari() {
         this(315);
     }
 
-    Ferrari(int maximumSpeed) {
+    public Ferrari(int maximumSpeed) {
         super(maximumSpeed);
-        delta = 15;
+        setDelta(15);
     }
 
-//    @Override
-//    void accelerate() {
-//        currentSpeed += 15;
-//    }
+    @Override
+    public void turnOnTurbo() {
+        turnOnTurbo = true;
+    }
+
+    @Override
+    public void turnOffTurbo() {
+        turnOnTurbo = false;
+    }
+
+    @Override
+    public void turnOnAirConditioning() {
+        turnOnAirConditioning = true;
+    }
+
+    @Override
+    public void turnOffAirConditioning() {
+        turnOnAirConditioning = false;
+    }
+
+    @Override
+    public int getDelta() {
+        if (turnOnTurbo && !turnOnAirConditioning) {
+            return 35;
+        } else if (turnOnTurbo && turnOnAirConditioning) {
+            return 30;
+        } else if (!turnOnTurbo && !turnOnAirConditioning) {
+            return 20;
+        } else {
+            return 15;
+        }
+    }
 }

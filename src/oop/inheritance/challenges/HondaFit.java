@@ -2,7 +2,7 @@ package oop.inheritance.challenges;
 
 public class HondaFit extends  Car {
 
-    HondaFit() {
+    public HondaFit() {
         super(122);
     }
 }
