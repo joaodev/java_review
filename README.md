@@ -7,6 +7,7 @@ A comprehensive educational project with practical examples of Java fundamentals
 This repository contains a structured review of Java's fundamental concepts, focusing on:
 - **Fundamentals**: Primitive types, operators, type conversions, and string manipulation
 - **Control Structures**: Conditionals and loops with practical examples
+- **Exception Handling**: Try-catch blocks, custom exceptions, and error management
 - **OOP Principles**: Encapsulation, inheritance, polymorphism, and composition
 - **Functional Programming**: Lambdas, streams, and functional interfaces
 - **Challenges**: Practical exercises to consolidate learning
@@ -30,6 +31,25 @@ java_review/
 │   │   ├── conditionals/       # Conditionals (if, else, switch)
 │   │   ├── loops/              # Repetition structures (for, while, do-while)
 │   │   └── challenges/         # Control flow challenges
+│   │
+│   ├── exceptions/            # Exception handling
+│   │   ├── BasicExceptions.java
+│   │   ├── CheckedVsNotChecked.java
+│   │   ├── FinallyException.java
+│   │   ├── custom/
+│   │   │   ├── one/
+│   │   │   │   ├── EmptyStringException.java
+│   │   │   │   ├── NumberOutsideRangeException.java
+│   │   │   │   ├── Validate.java
+│   │   │   │   └── ValidateTest.java
+│   │   │   └── two/
+│   │   │       ├── EmptyStringException.java
+│   │   │       ├── NumberOutsideRangeException.java
+│   │   │       ├── Validate.java
+│   │   │       └── ValidateTest.java
+│   │   └── others/
+│   │       ├── Cause.java
+│   │       └── Student.java
 │   │
 │   ├── classes/                # Basic Object-Oriented Programming
 │   │   ├── others/             # Values and references concepts
@@ -161,6 +181,12 @@ java_review/
 ✅ Break and continue  
 ✅ Complex control combinations
 
+### Exceptions
+✅ Exception handling (try, catch, finally)  
+✅ Checked vs unchecked exceptions  
+✅ Custom exceptions  
+✅ Exception chaining  
+
 ### Basic OOP
 ✅ Class definition and attributes  
 ✅ Methods and constructors  
@@ -216,19 +242,20 @@ java_review/
 5. **Master control flow**: Learn conditionals in `control/conditionals/`
 6. **Work with loops**: Study loops in `control/loops/`
 7. **Challenge yourself**: Solve all challenges in `control/challenges/`
-8. **Introduction to OOP**: Learn values and references concepts in `classes/others/`
-9. **Work with classes**: Create and study classes in `classes/area/` and `classes/product/`
-10. **OOP projects**: Implement practical challenges in `classes/challenges/`
-11. **Advanced OOP**: Dive into encapsulation in `oop/encapsulation/`
-12. **Understand inheritance**: Explore `oop/inheritance/` and its challenges
-13. **Master polymorphism**: Study `oop/polymorphism/` examples
-14. **Learn composition**: Work with relationships in `oop/composition/`
-15. **Functional programming**: Explore lambdas in `lambdas/others/` and `lambdas/interfaces/`
-16. **Lambda challenges**: Solve challenges in `lambdas/challenges/`
-17. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
-18. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
-19. **Integrate everything**: Combine OOP + Lambdas + Arrays + Collections in complex projects
-20. **Master streams**: Explore Stream API in `streams/`
+8. **Exception handling**: Learn exception handling in `exceptions/`
+9. **Introduction to OOP**: Learn values and references concepts in `classes/others/`
+10. **Work with classes**: Create and study classes in `classes/area/` and `classes/product/`
+11. **OOP projects**: Implement practical challenges in `classes/challenges/`
+12. **Advanced OOP**: Dive into encapsulation in `oop/encapsulation/`
+13. **Understand inheritance**: Explore `oop/inheritance/` and its challenges
+14. **Master polymorphism**: Study `oop/polymorphism/` examples
+15. **Learn composition**: Work with relationships in `oop/composition/`
+16. **Functional programming**: Explore lambdas in `lambdas/others/` and `lambdas/interfaces/`
+17. **Lambda challenges**: Solve challenges in `lambdas/challenges/`
+18. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
+19. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
+20. **Integrate everything**: Combine OOP + Lambdas + Arrays + Collections in complex projects
+21. **Master streams**: Explore Stream API in `streams/`
 
 ## 🤝 Contributions
 
