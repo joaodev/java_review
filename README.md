@@ -1,15 +1,15 @@
 # 📚 Java Review - Fundamentals, Control Flow, OOP, and Functional Programming
 
-A comprehensive educational project with practical examples of Java fundamentals, control structures, OOP principles, functional programming, and programming challenges.
+A comprehensive educational project with practical examples of Java br.com.joaodev.fundamentals, br.com.joaodev.control structures, OOP principles, functional programming, and programming challenges.
 
 ## 📖 About the Project
 
 This repository contains a structured review of Java's fundamental concepts, focusing on:
 - **Fundamentals**: Primitive types, operators, type conversions, and string manipulation
 - **Control Structures**: Conditionals and loops with practical examples
-- **Exception Handling**: Try-catch blocks, custom exceptions, and error management
+- **Exception Handling**: Try-catch blocks, custom br.com.joaodev.exceptions, and error management
 - **OOP Principles**: Encapsulation, inheritance, polymorphism, and composition
-- **Functional Programming**: Lambdas, streams, and functional interfaces
+- **Functional Programming**: Lambdas, br.com.joaodev.streams, and functional interfaces
 - **Challenges**: Practical exercises to consolidate learning
 
 Perfect for reviewing basic concepts or as study material for Java beginners and intermediates.
@@ -20,19 +20,19 @@ Perfect for reviewing basic concepts or as study material for Java beginners and
 java_review/
 │
 ├── src/
-│   ├── fundamentals/           # Java fundamental concepts
+│   ├── br.com.joaodev.fundamentals/           # Java fundamental concepts
 │   │   ├── others/             # General examples (initial program, console, etc)
 │   │   ├── numbers/            # Numeric conversion and primitive types
 │   │   ├── operators/          # Operators (arithmetic, relational, logical, etc)
 │   │   ├── strings/            # String manipulation
 │   │   └── challenges/         # Arithmetic and operations challenges
 │   │
-│   ├── control/                # Control flow structures
+│   ├── br.com.joaodev.control/                # Control flow structures
 │   │   ├── conditionals/       # Conditionals (if, else, switch)
 │   │   ├── loops/              # Repetition structures (for, while, do-while)
 │   │   └── challenges/         # Control flow challenges
 │   │
-│   ├── exceptions/            # Exception handling
+│   ├── br.com.joaodev.exceptions/            # Exception handling
 │   │   ├── BasicExceptions.java
 │   │   ├── CheckedVsNotChecked.java
 │   │   ├── FinallyException.java
@@ -51,14 +51,14 @@ java_review/
 │   │       ├── Cause.java
 │   │       └── Student.java
 │   │
-│   ├── classes/                # Basic Object-Oriented Programming
+│   ├── br.com.joaodev.classes/                # Basic Object-Oriented Programming
 │   │   ├── others/             # Values and references concepts
 │   │   ├── area/               # Class example with methods
 │   │   ├── product/            # Example with overloading and static attributes
 │   │   └── challenges/         # Class challenges
-│   │       └── eat/            # Subpackage: relationship between classes
+│   │       └── eat/            # Subpackage: relationship between br.com.joaodev.classes
 │   │
-│   ├── oop/                    # Advanced Object-Oriented Programming
+│   ├── br.com.joaodev.oop/                    # Advanced Object-Oriented Programming
 │   │   ├── encapsulation/      # Encapsulation principles
 │   │   │   ├── Person.java     # Person class with encapsulation
 │   │   │   ├── PersonTest.java # Tests for Person
@@ -118,7 +118,7 @@ java_review/
 │   │               │   │   ├── Purchase.java
 │   │               │   │   └── PurchaseTest.java
 │   │
-│   ├── lambdas/                # Functional Programming with Lambdas
+│   ├── br.com.joaodev.lambdas/                # Functional Programming with Lambdas
 │   │   ├── MultiplyCalculation.java # Lambda for multiplication
 │   │   ├── PredicateComposition.java # Predicate composition
 │   │   ├── ProductPredicate.java # Predicate for products
@@ -133,7 +133,7 @@ java_review/
 │   │   ├── others/             # Lambda examples
 │   │   │   ├── BinaryOperators.java # Binary operators
 │   │   │   ├── Consumers.java # Consumer examples
-│   │   │   ├── Foreach.java   # Foreach with lambdas
+│   │   │   ├── Foreach.java   # Foreach with br.com.joaodev.lambdas
 │   │   │   ├── Functions.java # Function examples
 │   │   │   ├── Product.java   # Product class
 │   │   │   ├── Suppliers.java # Supplier examples
@@ -143,17 +143,17 @@ java_review/
 │   │       ├── Calculation2Test.java
 │   │       └── Calculation3Test.java
 │   │
-│   ├── arrays/                 # Array data structures
+│   ├── br.com.joaodev.arrays/                 # Array data structures
 │   │   ├── challenges/         # Array challenges
 │   │   └── others/             # Array examples
 │   │
-│   └── collections/            # Java Collections (List, Set, Queue, Map)
-│       └── (utility classes and examples)
-│   └── streams/                # Stream API examples and challenges
+│   └── br.com.joaodev.collections/            # Java Collections (List, Set, Queue, Map)
+│       └── (utility br.com.joaodev.classes and examples)
+│   └── br.com.joaodev.streams/                # Stream API examples and challenges
 │       ├── challenges/         # Stream challenges
-│       ├── filters/            # Filtering streams
+│       ├── filters/            # Filtering br.com.joaodev.streams
 │       ├── others/             # Other stream usages
-│       └── reducers/           # Reducing streams
+│       └── reducers/           # Reducing br.com.joaodev.streams
 │
 └── README.md                   # This file
 ```
@@ -162,7 +162,7 @@ java_review/
 
 - **Java Development Kit (JDK)** 8 or higher
 - **IDE** (recommended: IntelliJ IDEA or Eclipse)
-- Git (for version control)
+- Git (for version br.com.joaodev.control)
 
 ## 💡 Concepts Covered
 
@@ -171,7 +171,7 @@ java_review/
 ✅ Operators (arithmetic, relational, logical, ternary)  
 ✅ Type conversion  
 ✅ Strings and text manipulation  
-✅ Wrapper classes  
+✅ Wrapper br.com.joaodev.classes  
 ✅ Type inference  
 ✅ Input/Output with Scanner and System.out
 
@@ -179,12 +179,12 @@ java_review/
 ✅ Conditional structures (if, else, switch)  
 ✅ Loops (for, while, do-while)  
 ✅ Break and continue  
-✅ Complex control combinations
+✅ Complex br.com.joaodev.control combinations
 
 ### Exceptions
 ✅ Exception handling (try, catch, finally)  
-✅ Checked vs unchecked exceptions  
-✅ Custom exceptions  
+✅ Checked vs unchecked br.com.joaodev.exceptions  
+✅ Custom br.com.joaodev.exceptions  
 ✅ Exception chaining  
 
 ### Basic OOP
@@ -194,15 +194,15 @@ java_review/
 ✅ Values vs. References  
 ✅ Null value  
 ✅ Static attributes  
-✅ Relationship between classes
+✅ Relationship between br.com.joaodev.classes
 
 ### Advanced OOP
 ✅ Encapsulation (access modifiers, getters/setters)  
 ✅ Inheritance (extends, super, method overriding)  
-✅ Polymorphism (method overloading/overriding, abstract classes)  
+✅ Polymorphism (method overloading/overriding, abstract br.com.joaodev.classes)  
 ✅ Composition (has-a relationships, aggregation)  
 ✅ One-to-many and many-to-many relationships  
-✅ Abstract classes and interfaces  
+✅ Abstract br.com.joaodev.classes and interfaces  
 ✅ Enums and constants
 
 ### Functional Programming
@@ -212,8 +212,8 @@ java_review/
 ✅ Streams and collectors  
 ✅ Binary and unary operators  
 ✅ Composing predicates  
-✅ Foreach with lambdas  
-✅ Threading with lambdas
+✅ Foreach with br.com.joaodev.lambdas  
+✅ Threading with br.com.joaodev.lambdas
 
 ### Arrays
 ✅ Array declaration and initialization  
@@ -221,41 +221,41 @@ java_review/
 ✅ Length property  
 ✅ Iteration with traditional for  
 ✅ Iteration with foreach  
-✅ Multidimensional arrays (matrices)  
+✅ Multidimensional br.com.joaodev.arrays (matrices)  
 ✅ Arrays utility (toString, sort, etc)
 
 ### Collections
-✅ List (ArrayList) - ordered and mutable collections  
-✅ Set (HashSet, TreeSet) - collections without duplicates  
+✅ List (ArrayList) - ordered and mutable br.com.joaodev.collections  
+✅ Set (HashSet, TreeSet) - br.com.joaodev.collections without duplicates  
 ✅ Map (HashMap) - key-value structure  
 ✅ Queue (LinkedList) - FIFO structure  
 ✅ Deque - double-ended queue  
-✅ Iteration over collections  
+✅ Iteration over br.com.joaodev.collections  
 ✅ Common operations (add, remove, contains, etc)
 
 ## 🎯 Study Suggestions
 
-1. **Start with fundamentals**: Run examples in `fundamentals/others/`
-2. **Learn operators**: Study each operator type in `fundamentals/operators/`
-3. **Manipulate strings**: Work with examples in `fundamentals/strings/`
-4. **Practice challenges**: Solve challenges in `fundamentals/challenges/`
-5. **Master control flow**: Learn conditionals in `control/conditionals/`
-6. **Work with loops**: Study loops in `control/loops/`
-7. **Challenge yourself**: Solve all challenges in `control/challenges/`
-8. **Exception handling**: Learn exception handling in `exceptions/`
-9. **Introduction to OOP**: Learn values and references concepts in `classes/others/`
-10. **Work with classes**: Create and study classes in `classes/area/` and `classes/product/`
-11. **OOP projects**: Implement practical challenges in `classes/challenges/`
-12. **Advanced OOP**: Dive into encapsulation in `oop/encapsulation/`
-13. **Understand inheritance**: Explore `oop/inheritance/` and its challenges
-14. **Master polymorphism**: Study `oop/polymorphism/` examples
-15. **Learn composition**: Work with relationships in `oop/composition/`
-16. **Functional programming**: Explore lambdas in `lambdas/others/` and `lambdas/interfaces/`
-17. **Lambda challenges**: Solve challenges in `lambdas/challenges/`
-18. **Master arrays**: Learn arrays in `arrays/` - foundation for collections
-19. **Work with collections**: Explore List, Set, Map and Queue in `collections/`
+1. **Start with br.com.joaodev.fundamentals**: Run examples in `br.com.joaodev.fundamentals/others/`
+2. **Learn operators**: Study each operator type in `br.com.joaodev.fundamentals/operators/`
+3. **Manipulate strings**: Work with examples in `br.com.joaodev.fundamentals/strings/`
+4. **Practice challenges**: Solve challenges in `br.com.joaodev.fundamentals/challenges/`
+5. **Master br.com.joaodev.control flow**: Learn conditionals in `br.com.joaodev.control/conditionals/`
+6. **Work with loops**: Study loops in `br.com.joaodev.control/loops/`
+7. **Challenge yourself**: Solve all challenges in `br.com.joaodev.control/challenges/`
+8. **Exception handling**: Learn exception handling in `br.com.joaodev.exceptions/`
+9. **Introduction to OOP**: Learn values and references concepts in `br.com.joaodev.classes/others/`
+10. **Work with br.com.joaodev.classes**: Create and study br.com.joaodev.classes in `br.com.joaodev.classes/area/` and `br.com.joaodev.classes/product/`
+11. **OOP projects**: Implement practical challenges in `br.com.joaodev.classes/challenges/`
+12. **Advanced OOP**: Dive into encapsulation in `br.com.joaodev.oop/encapsulation/`
+13. **Understand inheritance**: Explore `br.com.joaodev.oop/inheritance/` and its challenges
+14. **Master polymorphism**: Study `br.com.joaodev.oop/polymorphism/` examples
+15. **Learn composition**: Work with relationships in `br.com.joaodev.oop/composition/`
+16. **Functional programming**: Explore br.com.joaodev.lambdas in `br.com.joaodev.lambdas/others/` and `br.com.joaodev.lambdas/interfaces/`
+17. **Lambda challenges**: Solve challenges in `br.com.joaodev.lambdas/challenges/`
+18. **Master br.com.joaodev.arrays**: Learn br.com.joaodev.arrays in `br.com.joaodev.arrays/` - foundation for br.com.joaodev.collections
+19. **Work with br.com.joaodev.collections**: Explore List, Set, Map and Queue in `br.com.joaodev.collections/`
 20. **Integrate everything**: Combine OOP + Lambdas + Arrays + Collections in complex projects
-21. **Master streams**: Explore Stream API in `streams/`
+21. **Master br.com.joaodev.streams**: Explore Stream API in `br.com.joaodev.streams/`
 
 ## 🤝 Contributions
 
